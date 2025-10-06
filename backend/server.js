@@ -13,7 +13,7 @@ testConnection();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api",authRoutes);
+app.use("/",authRoutes);
 
 
 const port = process.env.PORT;
